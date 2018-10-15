@@ -5,7 +5,6 @@ const replaceCreditCards = require('./replace-credit-cards')
 // test if replace-credit-cards.js exists 
 describe('replaceCreditCards', function() {
   it('should exist', function() {
-      const replaceCreditCards = require('./replace-credit-cards.js');
       expect(replaceCreditCards).to.not.be.undefined;
   });
 });
